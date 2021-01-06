@@ -10,7 +10,11 @@ This python scripts uses the data from an excel file (sample file provided) to i
 # Usage
 Using commandline run:
 cd "directory where importUsers.py is located"
-python importUsers.py <url> <shared_space_id> <client_id> <client_secret> <path_to_excel_file_with_users.xls>
+prior 15.1.40 version:
+  python importUsers.py <url> <shared_space_id> <client_id> <client_secret> <path_to_excel_file_with_users.xls>
+from 15.1.40 version:
+  python importUsersNew.py <url> <shared_space_id> <client_id> <client_secret> <path_to_excel_file_with_users.xls>
+  
 
 # Parameters
 - <octane_url> ALM Octane URL in the exact format as follow: 'http(s)://serverhost:port'.
